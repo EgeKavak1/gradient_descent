@@ -1,5 +1,5 @@
 # gradient_descent
-Bu metin, sıcaklığa bağlı olarak dondurma satışlarını tahmin eden basit bir doğrusal regresyon modelinin, gradient descent algoritması ile eğitilmiş Python kodunu içerir.
+Bu metin, sıcaklığa bağlı olarak dondurma satışlarını tahmin eden basit bir doğrusal regresyon modelinin, gradient iniş algoritması ile eğitilmiş Python kodunu içerir.
 
 ## Giriş
 Dondurma satışları, çeşitli faktörlerden etkilenir, bunlardan biri de sıcaklıktır. Bu projede, sıcaklığa bağlı olarak dondurma satışlarını tahmin etmeyi amaçlıyoruz.
@@ -10,15 +10,24 @@ Bu projede kullanılan veri seti "Dondurma Satışları - sıcaklıklar.csv" ad�
 ## Yöntemler
 ### Fonksiyonlar
 predict(x, w, b): Doğrusal regresyon formülünü kullanarak, sıcaklık (x), ağırlıklar (w) ve sapmayı (b) göz önünde bulundurarak dondurma karını tahmin eder.
+
 compute_cost(X_train, y_train, w, b): Eğitim verisi (X_train, y_train), ağırlıklar (w) ve sapma (b) kullanılarak ortalama karesel hata maliyet fonksiyonunu hesaplar.
+
 compute_gradient(X_train, y_train, w, b): Eğitim verisi (X_train, y_train) kullanılarak, maliyet fonksiyonunun ağırlıklar ve sapma üzerindeki gradyanlarını hesaplar.
+
 gradient_descent(X_train, y_train, w, b, l_rate, num_iter, compute_cost, compute_gradient): Gradient iniş optimizasyonunu gerçekleştirerek maliyet fonksiyonunu en aza indirir ve buna göre ağırlıkları ve sapmayı günceller.
+
 ### Değişkenler
-X_train: Bağımsız değişken (Sıcaklık).
+X_train: Bağımsız değişken (Sıcaklık). 
+
 y_train: Bağımlı değişken (Dondurma Karları).
+
 w_init: Başlangıç ağırlıkları (rastgele oluşturulmuş).
+
 b_init: Başlangıç sapması (0 olarak ayarlanmış).
+
 l_rate: Gradient iniş için öğrenme oranı.
+
 num_iter: Gradient iniş optimizasyonu için iterasyon sayısı.
 
 ## Sonuçlar
