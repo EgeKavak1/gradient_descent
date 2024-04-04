@@ -1,5 +1,5 @@
 # gradient_descent
-Bu metin, sıcaklığa bağlı olarak dondurma satışlarını tahmin eden basit bir doğrusal regresyon modelinin, gradient iniş algoritması ile eğitilmiş Python betiğini içerir.
+Bu metin, sıcaklığa bağlı olarak dondurma satışlarını tahmin eden basit bir doğrusal regresyon modelinin, gradient descent algoritması ile eğitilmiş Python kodunu içerir.
 
 ## Giriş
 Dondurma satışları, çeşitli faktörlerden etkilenir, bunlardan biri de sıcaklıktır. Bu projede, sıcaklığa bağlı olarak dondurma satışlarını tahmin etmeyi amaçlıyoruz.
