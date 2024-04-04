@@ -20,6 +20,7 @@ w_init: Başlangıç ağırlıkları (rastgele oluşturulmuş).
 b_init: Başlangıç sapması (0 olarak ayarlanmış).
 l_rate: Gradient iniş için öğrenme oranı.
 num_iter: Gradient iniş optimizasyonu için iterasyon sayısı.
+
 ## Sonuçlar
 Gradient iniş algoritması, ağırlıkları ve sapmayı maliyet fonksiyonunu minimize etmek için iteratif olarak günceller. 100 iterasyon sonunda, son ağırlıklar sıcaklığa bağlı olarak dondurma karını tahmin etmek için optimal değerlere yakınsar.
 
